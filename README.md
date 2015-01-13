@@ -7,9 +7,11 @@
 
 ## Usage
 
-`if ([NSObject isUnitTesting]) {
-
-}`
+```
+if ([NSObject isUnitTesting]) {
+    // doing it right!
+} 
+```
 
 ## Installation
 
