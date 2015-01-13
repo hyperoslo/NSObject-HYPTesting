@@ -7,7 +7,9 @@
 
 ## Usage
 
-`<API>`
+`if ([NSObject isUnitTesting]) {
+
+}`
 
 ## Installation
 
