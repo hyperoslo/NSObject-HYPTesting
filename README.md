@@ -6,7 +6,7 @@
 
 ## Usage
 
-```
+```objc
 if ([NSObject isUnitTesting]) {
     // doing it right!
 } 
@@ -17,7 +17,9 @@ if ([NSObject isUnitTesting]) {
 **NSObject-HYPTesting** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-`pod 'NSObject-HYPTesting'`
+```ruby
+pod 'NSObject-HYPTesting'
+```
 
 ## Author
 
