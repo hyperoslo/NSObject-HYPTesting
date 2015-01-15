@@ -1,6 +1,5 @@
 # NSObject-HYPTesting
 
-[![CI Status](http://img.shields.io/travis/hyperoslo/NSObject-HYPTesting.svg?style=flat)](https://travis-ci.org/hyperoslo/NSObject-HYPTesting)
 [![Version](https://img.shields.io/cocoapods/v/NSObject-HYPTesting.svg?style=flat)](http://cocoadocs.org/docsets/NSObject-HYPTesting)
 [![License](https://img.shields.io/cocoapods/l/NSObject-HYPTesting.svg?style=flat)](http://cocoadocs.org/docsets/NSObject-HYPTesting)
 [![Platform](https://img.shields.io/cocoapods/p/NSObject-HYPTesting.svg?style=flat)](http://cocoadocs.org/docsets/NSObject-HYPTesting)
