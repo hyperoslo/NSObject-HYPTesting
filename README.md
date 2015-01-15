@@ -27,5 +27,3 @@ Hyper AS, teknologi@hyper.no
 ## License
 
 **NSObject-HYPTesting** is available under the MIT license. See the LICENSE file for more info.
-
-<3
