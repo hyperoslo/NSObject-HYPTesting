@@ -1,7 +1,3 @@
-//
-//  Tests.m
-//
-
 @import XCTest;
 
 #import "NSObject+HYPTesting.h"

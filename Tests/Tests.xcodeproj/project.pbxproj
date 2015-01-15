@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
-		14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418391A019A1500636FD6 /* LICENSE.md */; };
-		14C4183E1A019A1500636FD6 /* PODNAME.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183A1A019A1500636FD6 /* PODNAME.podspec */; };
+		14C4183E1A019A1500636FD6 /* NSObject-HYPTesting.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183A1A019A1500636FD6 /* NSObject-HYPTesting.podspec */; };
 		BD52E13E1A655236002C0E1B /* NSObject+HYPTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = BD52E13D1A655236002C0E1B /* NSObject+HYPTesting.m */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,7 @@
 		14C4182D1A01919C00636FD6 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		14C418381A019A1500636FD6 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C418391A019A1500636FD6 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		14C4183A1A019A1500636FD6 /* PODNAME.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = PODNAME.podspec; path = ../PODNAME.podspec; sourceTree = "<group>"; };
+		14C4183A1A019A1500636FD6 /* NSObject-HYPTesting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = "NSObject-HYPTesting.podspec"; path = "../NSObject-HYPTesting.podspec"; sourceTree = "<group>"; };
 		14C4183B1A019A1500636FD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BD52E13C1A655236002C0E1B /* NSObject+HYPTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HYPTesting.h"; sourceTree = "<group>"; };
 		BD52E13D1A655236002C0E1B /* NSObject+HYPTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HYPTesting.m"; sourceTree = "<group>"; };
@@ -89,7 +88,7 @@
 				14B564721A06D87B00342CDA /* .travis.yml */,
 				14C418381A019A1500636FD6 /* CONTRIBUTING.md */,
 				14C418391A019A1500636FD6 /* LICENSE.md */,
-				14C4183A1A019A1500636FD6 /* PODNAME.podspec */,
+				14C4183A1A019A1500636FD6 /* NSObject-HYPTesting.podspec */,
 				14C4183B1A019A1500636FD6 /* README.md */,
 			);
 			name = Metadata;
@@ -152,8 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14B564731A06D87B00342CDA /* .travis.yml in Resources */,
-				14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */,
-				14C4183E1A019A1500636FD6 /* PODNAME.podspec in Resources */,
+				14C4183E1A019A1500636FD6 /* NSObject-HYPTesting.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
