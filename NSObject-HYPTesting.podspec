@@ -1,13 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "NSObject-HYPTesting"
 s.version          = "1.0"
-s.summary          = "A short description of NSObject-HYPTesting."
-s.description      = <<-DESC
-An optional longer description of NSObject-HYPTesting
-
-* Markdown format.
-* Don't worry about the indent, we strip it!
-DESC
+s.summary          = "Checks if the app is running on testing mode"
 s.homepage         = "https://github.com/hyperoslo/NSObject-HYPTesting"
 s.license          = 'MIT'
 s.author           = { "Hyper AS" => "teknologi@hyper.no" }
