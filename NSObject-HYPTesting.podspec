@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "NSObject-HYPTesting"
-s.version          = "0.1"
+s.version          = "1.0"
 s.summary          = "A short description of NSObject-HYPTesting."
 s.description      = <<-DESC
 An optional longer description of NSObject-HYPTesting
@@ -19,6 +19,4 @@ s.requires_arc = true
 
 s.source_files = 'Source/**/*'
 
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
 end
