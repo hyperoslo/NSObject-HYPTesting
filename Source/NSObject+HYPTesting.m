@@ -5,8 +5,9 @@
 + (BOOL)isUnitTesting
 {
     NSDictionary *environment = [NSProcessInfo processInfo].environment;
-    NSString *injectBundlePath = environment[@"XCInjectBundle"];
-    return [injectBundlePath.pathExtension isEqualToString:@"xctest"];
+    NSString *XPCServiceName = environment[@"XPC_SERVICE_NAME"];
+    return ([XPCServiceName.pathExtension isEqualToString:@"xctest"] ||
+            [XPCServiceName isEqualToString:@"0"]);
 }
 
 @end
