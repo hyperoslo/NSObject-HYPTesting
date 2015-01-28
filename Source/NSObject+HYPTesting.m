@@ -6,9 +6,11 @@
 {
     NSDictionary *environment = [NSProcessInfo processInfo].environment;
     NSString *XPCServiceName = environment[@"XPC_SERVICE_NAME"];
-    NSLog(@"environment: %@", environment);
+    BOOL runningOnTravis = (environment[@"TRAVIS"]);
+
     return ([XPCServiceName.pathExtension isEqualToString:@"xctest"] ||
-            [XPCServiceName isEqualToString:@"0"]);
+            [XPCServiceName isEqualToString:@"0"] ||
+            runningOnTravis);
 }
 
 @end
