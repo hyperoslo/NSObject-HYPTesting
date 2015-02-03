@@ -5,11 +5,14 @@
 + (BOOL)isUnitTesting
 {
     NSDictionary *environment = [NSProcessInfo processInfo].environment;
-    NSString *XPCServiceName = environment[@"XPC_SERVICE_NAME"];
+    NSString *serviceNameValue = environment[@"XPC_SERVICE_NAME"];
+    NSString *injectBundleValue = environment[@"XCInjectBundle"];
     BOOL runningOnTravis = (environment[@"TRAVIS"] != nil);
 
-    return ([XPCServiceName.pathExtension isEqualToString:@"xctest"] ||
-            [XPCServiceName isEqualToString:@"0"] ||
+    return ([serviceNameValue.pathExtension isEqualToString:@"xctest"] ||
+            [serviceNameValue isEqualToString:@"0"] ||
+            [injectBundleValue.pathExtension isEqualToString:@"xctest"] ||
+            [injectBundleValue isEqualToString:@"0"] ||
             runningOnTravis);
 }
 
