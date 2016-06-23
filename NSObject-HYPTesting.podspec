@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "NSObject-HYPTesting"
-s.version          = "1.2"
+s.version          = "1.2.1"
 s.summary          = "Checks if the app is running on testing mode"
 s.homepage         = "https://github.com/hyperoslo/NSObject-HYPTesting"
 s.license          = 'MIT'
